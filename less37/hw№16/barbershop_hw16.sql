@@ -92,4 +92,10 @@ VALUES
 
 -- Добавил для каждого запроса "OR IGNORE" для предотвращения дубликатов
 
+-- Проверяем каждую таблицу
+SELECT * FROM masters;
+SELECT * FROM services;
+SELECT * FROM masters_services;
+SELECT * FROM appointments;
+SELECT * FROM appointments_services;
 
